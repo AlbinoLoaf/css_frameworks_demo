@@ -24,30 +24,31 @@ export default function Main() {
     <div
       id="container"
       style={{
-        height: "100%",
-        display: "flex",
-        flexDirection: "column",
-        backgroundColor: "#f8fafc",
+        // height: "100%",
+        // // display: "flex",
+        // // flexDirection: "column",
+        // backgroundColor: "#f8fafc",
       }}
-      className=""
+
+      className="flex flex-col bg-slate-50 h-full" 
     >
       <img
         src="/pizzafox.png"
-        style={{
-          width: "40%",
-          alignSelf: "flex-end",
-          margin: "1em 1em 4em 1em",
-        }}
-        className=""
+        // style={{
+        //   width: "40%",
+        //   alignSelf: "flex-end",
+        //   margin: "1em 1em 4em 1em",
+        // }}
+        className="w-2/5 self-end mx-4 mt-4 mb-16"
       />
       <form
-        style={{
-          width: "60%",
-          display: "flex",
-          flexDirection: "column",
-          alignSelf: "center",
-        }}
-        className=""
+        // style={{
+        //   width: "60%",
+        //   display: "flex",
+        //   flexDirection: "column",
+        //   alignSelf: "center",
+        // }}
+        className="w-3/5 flex flex-col self-center"
         onSubmit={handleSubmit}
       >
         <h1
