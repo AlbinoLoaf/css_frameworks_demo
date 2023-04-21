@@ -52,38 +52,38 @@ export default function Main() {
         onSubmit={handleSubmit}
       >
         <h1
-          style={{
-            fontSize: "3rem",
-            lineHeight: "1",
-          }}
-          className=""
+          // style={{
+          //   fontSize: "3rem",
+          //   lineHeight: "1",
+          // }}
+          className="text-5xl leading-none"
         >
           Sign in
         </h1>
         <p
-          style={{
-            fontSize: "1rem",
-            lineHeight: "2rem",
-            color: "#475569",
-          }}
-          className=""
+          // style={{
+          //   fontSize: "1rem",
+          //   lineHeight: "2rem",
+          //   color: "#475569",
+          // }}
+          className="text-base leading-8 text-slate-600"
         >
           Please sign in to continue
         </p>
         <div
           id="email-input-container"
           style={{
-            display: "flex",
-            flexDirection: "column",
-            marginTop: "1em",
-            borderRadius: "0.75rem",
-            borderWidth: "1px",
-            borderColor: "black",
-            backgroundColor: "white",
+            // display: "flex",
+            // flexDirection: "column",
+            // marginTop: "1em",
+            // borderRadius: "0.75rem",
+            // borderWidth: "1px",
+            // borderColor: "black",
+            // backgroundColor: "white",
             filter:
               "drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1))",
           }}
-          className=""
+          className="flex felx-col mt-4 rounded-xl border-4 border-black bg-white"
         >
           <label
             id="email-label"
@@ -93,7 +93,12 @@ export default function Main() {
               width: "100%",
               margin: "0.3em 0 0 0.3em",
             }}
-            className=""
+            className="
+            text-lg 
+            leading-7
+            w-full
+            mt-3/12 mr-0 mb-0
+            "
             htmlFor="email-input"
           >
             ✉️ Email
